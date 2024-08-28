@@ -1,3 +1,4 @@
+/* Ajusta fuente; fondo; etc */
 body {
     font-family: Arial, sans-serif;
     background-size: cover;
@@ -5,7 +6,7 @@ body {
     margin: 10;
     padding: 10;
 }
-
+/* Logo y titulo */
 header {
     text-align: center;
     padding: 20px;
@@ -17,6 +18,7 @@ header img {
     margin: 0 auto;
 }
 
+/* Enlaces */
 nav {
     display: flex;
     justify-content: center;
@@ -35,6 +37,7 @@ nav a:hover {
     color: #000000;
 }
 
+/* contenido central de la pagina */
 main {
     display: flex;
     justify-content: space-around;
@@ -55,21 +58,11 @@ main h2 {
     margin-bottom: 20px;
 }
 
+/* Catalogo de productos */
 .catalogo {
     text-align: center;
     margin-bottom: 20px;
 }
-
-.catalogo img {
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-
-.catalogo img:hover {
-    transform: scale(1.1);
-}
-
-
 
 
 
